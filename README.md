@@ -11,7 +11,7 @@ This project focuses on analyzing Amazon sales data to extract valuable business
    - Displayed the first few rows using `.head()` to understand the structure of the dataset.
    - Identified the data types of each column using `.dtypes()`.
 
-#### 2. Data Cleaning:
+### 2. Data Cleaning:
    - Checked for null values across columns to assess data quality with `.isnull().sum()`.
    - Attempted to drop rows with missing values using `.dropna()`, but this resulted in significant data loss.
    - Opted for a more focused approach by dropping only rows where the "Amount" column was missing, ensuring minimal loss of valuable data.
